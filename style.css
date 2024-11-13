@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#navBar{
+    display: flex;
+    padding: 1em;
+    justify-content: end;
+    background-color: rgb(88, 204, 88);
+    height: 50px;
+}
+
+#navBar a{
+    text-decoration: none;
+    color: white;
+}
+
+#navBar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+}
+
+#navBar li{
+    margin-right: 3em;
+    font-size: 150%;
+}
+
+#navBar a:hover{
+    color: rgb(140, 159, 191);
+}
+
+#joinUs{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#joinUs h1{
+    font-size: 300%;
+    margin-top: 20%;
+    padding-right: 30%;
+    text-align: right;
+}
+
+#joinUs p{
+    font-size: 140%;
+    margin-top: 10%;
+    padding-left: 13%;
+}
+
+section #joinUs img{
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+section svg{
+    width: 190%;
+    margin-bottom: -120%;
+    margin-left: -140%;
+    margin-top: 70%;
+}
+
+#personagens{
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 15%;
+}
+
+#personagens #cat{
+    margin-left: -15%;
+}
+
+#personagens #frog{
+    margin-left: 23%;
+}
+
+section #imagensChar img{
+    width: 90%;
+}
+
+#imagensChar{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+#Gato:hover{
+    background-color: rgb(222, 238, 74);
+
+    border-radius: 20px;
+
+    width: 100%;
+    transition-duration: 0.8s;
+}
+
+#Guaxinim:hover{
+    background-color: rgb(105, 89, 17);
+
+    border-radius: 20px;
+
+    width: 100%;
+    transition-duration: 0.8s;
+}
+
+#Sapo:hover{
+    background-color: rgb(40, 128, 59);
+
+    border-radius: 20px;
+
+    width: 100%;
+    transition-duration: 0.8s;
+}
+
+#infos{
+    margin-top: 20%;
+}
+
+#infos h1{
+    margin-left: 2%;
+}
+
+#infos p{
+    margin-left: 2%;
+    font-size: 120%;
+    margin-top: 13%;
+}
+
+#infosERPG{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 15%;
+}
+
+#infosERPG img{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 9%;
+
+    border-radius: 20px;
+}
+
+#artbook{
+    display: grid;
+    grid-auto-flow: column;
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#artbook button{
+    width: 25%;
+    height: 40px;
+    margin-left: 40%;
+    
+    margin-top: 9%;
+
+    background-color: rgb(219, 54, 42);
+    border-radius: 20px;
+
+    cursor: pointer;
+    border: none;
+}
+
+#artbook a{
+    text-decoration: none;
+    color: white;
+}
+
+#artbook a:hover{
+    color: black;
+}
+
+
+.custom-shape-divider-bottom-1716400138 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716400138 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 231px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1716400138 .shape-fill {
+    fill: rgb(88, 204, 88);
+}
+
+
+#footer img{
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 10%;
+}
